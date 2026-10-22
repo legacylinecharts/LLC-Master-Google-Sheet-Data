@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legacy Line Charts v63.0</title>
+    <title>Delano Tigers - Legacy Line Charts v63.1</title>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone@7.23.10/babel.min.js"></script>
@@ -161,9 +161,708 @@
         // Set SUBSCRIBER_MODE = true when building subscriber sites
         // Then populate EMBEDDED_CONFIG with their exported data
         // ============================================================
-        const SUBSCRIBER_MODE = false;  // Master site = false, Subscriber sites = true
+        const SUBSCRIBER_MODE = true;  // Delano Tigers subscriber build v63.1
         
-        const EMBEDDED_CONFIG = null;   // null for master site, or paste exported config for subscribers
+        const EMBEDDED_CONFIG = {
+  "siteId": "delano",
+  "teamSetup": {
+    "teamName": "Delano Tigers",
+    "logo": "https://cdn3.sportngin.com/attachments/team/5112-152073362/1delano-tigers-hockey_large_square_large_square.png",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FC6418"
+    },
+    "arena": "",
+    "careerStats": {
+      "KANGAS_BRA": {
+        "type": "skater",
+        "data": {
+          "gp": 85,
+          "g": 46,
+          "a": 69,
+          "pts": 115,
+          "pim": 35,
+          "plusMinus": 72,
+          "fow": 121,
+          "fol": 79,
+          "bs": 18
+        }
+      },
+      "HALONEN_DAN": {
+        "type": "skater",
+        "data": {
+          "gp": 82,
+          "g": 65,
+          "a": 72,
+          "pts": 137,
+          "pim": 92,
+          "plusMinus": 85,
+          "fow": 817,
+          "fol": 521,
+          "bs": 36
+        }
+      },
+      "HALONEN_LAN": {
+        "type": "skater",
+        "data": {
+          "gp": 58,
+          "g": 36,
+          "a": 44,
+          "pts": 80,
+          "pim": 45,
+          "plusMinus": 54,
+          "fow": 143,
+          "fol": 80,
+          "bs": 20
+        }
+      },
+      "GEISLINGER_BRO": {
+        "type": "skater",
+        "data": {
+          "gp": 78,
+          "g": 30,
+          "a": 34,
+          "pts": 64,
+          "pim": 87,
+          "plusMinus": 30,
+          "fow": 124,
+          "fol": 110,
+          "bs": 17
+        }
+      },
+      "OJA_CON": {
+        "type": "skater",
+        "data": {
+          "gp": 63,
+          "g": 6,
+          "a": 31,
+          "pts": 37,
+          "pim": 4,
+          "plusMinus": 52,
+          "fow": 0,
+          "fol": 0,
+          "bs": 15
+        }
+      },
+      "NELSON_DYL": {
+        "type": "skater",
+        "data": {
+          "gp": 57,
+          "g": 5,
+          "a": 21,
+          "pts": 26,
+          "pim": 26,
+          "plusMinus": 14,
+          "fow": 62,
+          "fol": 44,
+          "bs": 4
+        }
+      },
+      "WOLLAK_JAC": {
+        "type": "skater",
+        "data": {
+          "gp": 57,
+          "g": 7,
+          "a": 34,
+          "pts": 41,
+          "pim": 66,
+          "plusMinus": 49,
+          "fow": 0,
+          "fol": 0,
+          "bs": 11
+        }
+      },
+      "HALONEN_BEN": {
+        "type": "skater",
+        "data": {
+          "gp": 43,
+          "g": 4,
+          "a": 12,
+          "pts": 16,
+          "pim": 14,
+          "plusMinus": 34,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "PERLICH_JAC": {
+        "type": "skater",
+        "data": {
+          "gp": 81,
+          "g": 11,
+          "a": 20,
+          "pts": 31,
+          "pim": 34,
+          "plusMinus": -5,
+          "fow": 467,
+          "fol": 381,
+          "bs": 14
+        }
+      },
+      "BRUETT_AND": {
+        "type": "skater",
+        "data": {
+          "gp": 50,
+          "g": 9,
+          "a": 15,
+          "pts": 24,
+          "pim": 12,
+          "plusMinus": 9,
+          "fow": 8,
+          "fol": 11,
+          "bs": 13
+        }
+      },
+      "TATE_HEN": {
+        "type": "skater",
+        "data": {
+          "gp": 31,
+          "g": 2,
+          "a": 6,
+          "pts": 8,
+          "pim": 12,
+          "plusMinus": 1,
+          "fow": 63,
+          "fol": 56,
+          "bs": 0
+        }
+      },
+      "BRUETT_GRA": {
+        "type": "skater",
+        "data": {
+          "gp": 52,
+          "g": 2,
+          "a": 5,
+          "pts": 7,
+          "pim": 22,
+          "plusMinus": -5,
+          "fow": 176,
+          "fol": 182,
+          "bs": 4
+        }
+      },
+      "KAZIN_AUS": {
+        "type": "skater",
+        "data": {
+          "gp": 31,
+          "g": 3,
+          "a": 3,
+          "pts": 6,
+          "pim": 6,
+          "plusMinus": 1,
+          "fow": 0,
+          "fol": 2,
+          "bs": 0
+        }
+      },
+      "PRIEBE_GRI": {
+        "type": "skater",
+        "data": {
+          "gp": 19,
+          "g": 1,
+          "a": 2,
+          "pts": 3,
+          "pim": 6,
+          "plusMinus": 0,
+          "fow": 7,
+          "fol": 4,
+          "bs": 0
+        }
+      },
+      "ROUSU_RYA": {
+        "type": "skater",
+        "data": {
+          "gp": 19,
+          "g": 0,
+          "a": 3,
+          "pts": 3,
+          "pim": 2,
+          "plusMinus": 9,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "GEYEN_EVA": {
+        "type": "goalie",
+        "data": {
+          "gp": 52,
+          "min": "2629:59",
+          "w": 35,
+          "l": 15,
+          "t": 2,
+          "so": 8,
+          "ga": 136,
+          "sv": 1183
+        }
+      },
+      "HARGARTEN_LIN": {
+        "type": "skater",
+        "data": {
+          "gp": 45,
+          "g": 1,
+          "a": 2,
+          "pts": 3,
+          "pim": 2,
+          "plusMinus": 1,
+          "fow": 6,
+          "fol": 12,
+          "bs": 1
+        }
+      },
+      "REIFFENBERGER_CHA": {
+        "type": "skater",
+        "data": {
+          "gp": 13,
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 7,
+          "fol": 6,
+          "bs": 0
+        }
+      },
+      "VANDEPUTTE_LUK": {
+        "type": "skater",
+        "data": {
+          "gp": 6,
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "pim": 2,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "MATTSON_MAS": {
+        "type": "skater",
+        "data": {
+          "gp": 11,
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "pim": 2,
+          "plusMinus": 3,
+          "fow": 2,
+          "fol": 2,
+          "bs": 0
+        }
+      },
+      "MCCABE_JON": {
+        "type": "skater",
+        "data": {
+          "gp": 18,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 1,
+          "fow": 1,
+          "fol": 0,
+          "bs": 1
+        }
+      },
+      "PIETILA_BLA": {
+        "type": "skater",
+        "data": {
+          "gp": 9,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 1,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "LEAVER_NOL": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "TRUAX_LIN": {
+        "type": "goalie",
+        "data": {
+          "gp": 18,
+          "min": "794:22",
+          "w": 10,
+          "l": 4,
+          "t": 1,
+          "so": 3,
+          "ga": 35,
+          "sv": 329
+        }
+      },
+      "SCHOEN-BEHNKE_ISA": {
+        "type": "skater",
+        "data": {
+          "gp": 7,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 1,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "HAWKINS_DRA": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "KESTNER_AXE": {
+        "type": "goalie",
+        "data": {
+          "gp": 3,
+          "min": "104:43",
+          "w": 2,
+          "l": 0,
+          "t": 0,
+          "so": 0,
+          "ga": 5,
+          "sv": 29
+        }
+      },
+      "ROBERTSON_LUK": {
+        "type": "skater",
+        "data": {
+          "gp": 15,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": -1,
+          "fow": 0,
+          "fol": 0,
+          "bs": 1
+        }
+      },
+      "JANIGA_AID": {
+        "type": "goalie",
+        "data": {
+          "gp": 9,
+          "min": "412:51",
+          "w": 1,
+          "l": 5,
+          "t": 1,
+          "so": 0,
+          "ga": 29,
+          "sv": 181
+        }
+      },
+      "SCHUSTER_OWE": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "DANIELSON_KEL": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "LINS_EDD": {
+        "type": "skater",
+        "data": {
+          "gp": 51,
+          "g": 0,
+          "a": 7,
+          "pts": 7,
+          "pim": 11,
+          "plusMinus": 12,
+          "fow": 0,
+          "fol": 0,
+          "bs": 39
+        }
+      },
+      "HALONEN_AAR": {
+        "type": "skater",
+        "data": {
+          "gp": 53,
+          "g": 10,
+          "a": 22,
+          "pts": 32,
+          "pim": 18,
+          "plusMinus": 4,
+          "fow": 0,
+          "fol": 0,
+          "bs": 62
+        }
+      },
+      "KANGAS_MAR": {
+        "type": "skater",
+        "data": {
+          "gp": 54,
+          "g": 12,
+          "a": 18,
+          "pts": 30,
+          "pim": 84,
+          "plusMinus": 31,
+          "fow": 1,
+          "fol": 0,
+          "bs": 90
+        }
+      },
+      "HARGARTEN_MAS": {
+        "type": "skater",
+        "data": {
+          "gp": 47,
+          "g": 25,
+          "a": 30,
+          "pts": 55,
+          "pim": 43,
+          "plusMinus": 27,
+          "fow": 374,
+          "fol": 344,
+          "bs": 33
+        }
+      },
+      "MCCABE_JOS": {
+        "type": "skater",
+        "data": {
+          "gp": 54,
+          "g": 27,
+          "a": 32,
+          "pts": 59,
+          "pim": 35,
+          "plusMinus": 26,
+          "fow": 60,
+          "fol": 50,
+          "bs": 16
+        }
+      },
+      "PETERSON_BRY": {
+        "type": "skater",
+        "data": {
+          "gp": 54,
+          "g": 29,
+          "a": 26,
+          "pts": 55,
+          "pim": 40,
+          "plusMinus": 13,
+          "fow": 145,
+          "fol": 129,
+          "bs": 41
+        }
+      },
+      "TRUAX_DUN": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "LOFSTEDT_LAD": {
+        "type": "skater",
+        "data": {
+          "gp": 11,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 4,
+          "fol": 1,
+          "bs": 0
+        }
+      },
+      "ALLEN_HUN": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "NARLOCK_KYL": {
+        "type": "skater",
+        "data": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 0,
+          "bs": 0
+        }
+      },
+      "HAUKOS_MAX": {
+        "type": "skater",
+        "data": {
+          "gp": 4,
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "pim": 0,
+          "plusMinus": 0,
+          "fow": 0,
+          "fol": 1,
+          "bs": 0
+        }
+      },
+      "STIGMAN_JAM": {
+        "type": "goalie",
+        "data": {
+          "gp": 1,
+          "min": "51:00",
+          "w": 1,
+          "l": 0,
+          "t": 0,
+          "so": 1,
+          "ga": 0,
+          "sv": 14
+        }
+      },
+      "HEINZEN_JAK": {
+        "type": "skater",
+        "data": {
+          "gp": 27,
+          "g": 8,
+          "a": 5,
+          "pts": 13,
+          "pim": 15,
+          "plusMinus": 6,
+          "fow": 3,
+          "fol": 4,
+          "bs": 6
+        }
+      },
+      "CAPPELLERI_VIN": {
+        "type": "skater",
+        "data": {
+          "gp": 27,
+          "g": 4,
+          "a": 9,
+          "pts": 13,
+          "pim": 16,
+          "plusMinus": 11,
+          "fow": 0,
+          "fol": 0,
+          "bs": 17
+        }
+      },
+      "COPPIN_BRA": {
+        "type": "skater",
+        "data": {
+          "gp": 26,
+          "g": 0,
+          "a": 14,
+          "pts": 14,
+          "pim": 6,
+          "plusMinus": 4,
+          "fow": 0,
+          "fol": 0,
+          "bs": 42
+        }
+      },
+      "LINNA_TOD": {
+        "type": "skater",
+        "data": {
+          "gp": 21,
+          "g": 5,
+          "a": 11,
+          "pts": 16,
+          "pim": 4,
+          "plusMinus": 6,
+          "fow": 131,
+          "fol": 112,
+          "bs": 5
+        }
+      },
+      "COLLINGS_TEA": {
+        "type": "skater",
+        "data": {
+          "gp": 27,
+          "g": 11,
+          "a": 21,
+          "pts": 32,
+          "pim": 23,
+          "plusMinus": 10,
+          "fow": 97,
+          "fol": 92,
+          "bs": 16
+        }
+      },
+      "ENGELMANN_ETH": {
+        "type": "goalie",
+        "data": {
+          "gp": 9,
+          "min": "413:50",
+          "w": 6,
+          "l": 2,
+          "t": 0,
+          "so": 2,
+          "ga": 20,
+          "sv": 206
+        }
+      }
+    },
+    "pronunciations": {}
+  },
+  "careerSeasonData": {
+    "season1": "Connect to this Site \ndrtigers\n \nMy Sites\n \n 360\nSportsEngine\nRegistration Details\nAssets\nSite Guide\nStyle Guide\nskip navigation\nLegacy Hockey | Minnesota's No. 1 resource for high school hockey's past, present and future.\n\n \nTeam Search\nSearch\nThe TourneyMSHSLNewsTourney TimeSponsorshipsMore\nSubscribe\nDelano\nHistory\nRegular & Postseason\n2025-26\nConference Standings\n Wright County \n Delano \nDelano\nHome\nRoster\nGame Schedule\nPlayer Stats\nTeam Stats\nStandings\nPhotos\nVideos\nPosts\nLeague\nDivision\nFilters\nPosition\nAll\nGoalieForwardDefense\nPlayer Stats\nSkater\n#\tName\tPos\tGrade\tGP\tG\tA\tPTS\tSOG\tSOG %\tPPG\tPPA\tSH\tSHA\tPEN\tPIM\tFOW\tFOL\tTO\tHIT\tBS\t+ / -\tGW\tAVG PTS\n13\tBrady Kangas\tF\t12\t31\t33\t52\t85\t33\t100.0\t9\t3\t1\t2\t6\t12\t99\t53\t0\t0\t0\t66\t3\t2.74\n12\tDaniel Halonen (Capt.)\tF\t12\t31\t44\t36\t80\t44\t100.0\t5\t8\t4\t1\t19\t44\t449\t266\t0\t0\t0\t67\t7\t2.58\n62\tLance Halonen\tF\t10\t31\t23\t28\t51\t23\t100.0\t5\t7\t0\t0\t12\t26\t66\t36\t0\t0\t0\t37\t3\t1.65\n20\tBrody Geislinger (Capt.)\tF\t12\t30\t14\t19\t33\t14\t100.0\t3\t2\t2\t1\t19\t39\t38\t39\t0\t0\t0\t22\t2\t1.10\n16\tConnor Oja\tD\t12\t31\t4\t23\t27\t4\t100.0\t1\t11\t0\t1\t2\t4\t0\t0\t0\t0\t0\t40\t1\t0.87\n21\tDylan Nelson\tD\t11\t31\t5\t21\t26\t5\t100.0\t1\t6\t0\t0\t10\t20\t0\t0\t0\t0\t0\t25\t0\t0.84\n34\tJackson Wollak\tD\t10\t30\t6\t19\t25\t6\t100.0\t1\t6\t1\t2\t23\t46\t0\t0\t0\t0\t0\t37\t1\t0.83\n22\tBennett Halonen\tD\t11\t31\t4\t12\t16\t4\t100.0\t0\t4\t0\t0\t7\t14\t0\t0\t0\t0\t0\t34\t1\t0.52\n9\tJacob Perlich (Capt.)\tF\t12\t29\t5\t8\t13\t5\t100.0\t0\t0\t0\t0\t6\t12\t208\t135\t0\t0\t0\t2\t2\t0.45\n3\tAndrew Bruett\tF\t12\t23\t4\t6\t10\t4\t100.0\t0\t0\t0\t0\t1\t2\t4\t7\t0\t0\t0\t7\t1\t0.43\n18\tHenry Tate\tF\t10\t31\t2\t6\t8\t2\t100.0\t0\t1\t1\t0\t6\t12\t63\t56\t0\t0\t0\t1\t0\t0.26\n2\tGrant Bruett\tF\t10\t31\t2\t4\t6\t2\t100.0\t0\t0\t0\t1\t11\t22\t174\t181\t0\t0\t0\t1\t1\t0.19\n15\tAustin Kazin\tF\t10\t31\t3\t3\t6\t3\t100.0\t0\t0\t0\t0\t3\t6\t0\t2\t0\t0\t0\t1\t1\t0.19\n7\tGriffin Priebe\tF\t10\t19\t1\t2\t3\t1\t100.0\t0\t1\t0\t0\t3\t6\t7\t4\t0\t0\t0\t0\t0\t0.16\n23\tRyan Rousu\tD\t10\t19\t0\t3\t3\t0\t0.0\t0\t0\t0\t0\t1\t2\t0\t0\t0\t0\t0\t9\t0\t0.16\n1\tEvan Geyen\tG\t12\t3\t0\t2\t2\t0\t0.0\t0\t1\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.67\n11\tLincoln Hargarten\tF\t11\t26\t1\t1\t2\t1\t100.0\t0\t0\t0\t0\t1\t2\t4\t7\t0\t0\t0\t2\t0\t0.08\n4\tCharlie Reiffenberger\tF\t10\t13\t1\t0\t1\t1\t100.0\t1\t0\t0\t0\t0\t0\t7\t6\t0\t0\t0\t0\t0\t0.08\n17\tLuke Vandeputte\t\t\t6\t0\t1\t1\t0\t0.0\t0\t1\t0\t0\t1\t2\t0\t0\t0\t0\t0\t0\t0\t0.17\n8\tMason Mattson\t\t\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n19\tJonny McCabe\tF\t11\t3\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t1\t0\t0\t0\t0\t0\t0\t0.00\n25\tBlake Pietila\tD\t10\t9\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t1\t0\t0.00\n32\tNolan Leaver\t\t\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n35\tLincoln Truax\tG\t11\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n24\tIsaac Schoen-Behnke\tD\t10\t7\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t1\t0\t0.00\n6\tDrake Hawkins\tF\t10\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\nGoalie\n#\tName\tPos\tGrade\tGP\tMIN\tW\tL\tT\tSOG\tGA\tSV\tGAA\tSV %\tSO\n1\tEvan Geyen\tG\t12\t15\t766:12\t12\t2\t1\t361\t32\t329\t2.13\t.911\t3\n35\tLincoln Truax\tG\t11\t16\t741:58\t9\t4\t1\t343\t33\t310\t2.27\t.904\t3\n38\tAxel Kestner\tG\t10\t3\t104:43\t2\t0\t0\t34\t5\t29\t2.44\t.853\t0\nPrintable Version\n\n\n\n\n\n\n\n\nPrevious\nNext\n\nMSHSL\nSchedule/Results\n\nStatistical Leaders\n\nConference Standings\n\nHoliday Tournaments\n\nCoaching Changes\n\nContact Us\nadmin@legacy.hockey\n\nSubscribe\nThis website is powered by SportsEngine's Sports Relationship Management (SRM) software, but is owned by and subject to the Legacy Hockey privacy policy. ©2026 SportsEngine, LLC.\n Privacy Policy\n\n\nTerms of Content Use\nA Raptive Partner Site\n\nNeed Help?\n",
+    "season2": "Connect to this Site \ndrtigers\n \nMy Sites\n \n 360\nSportsEngine\nRegistration Details\nAssets\nSite Guide\nStyle Guide\nskip navigation\nLegacy Hockey | Minnesota's No. 1 resource for high school hockey's past, present and future.\n\n \nTeam Search\nSearch\nThe TourneyMSHSLNewsTourney TimeSponsorshipsMore\nSubscribe\nDelano\nHistory\nRegular & Postseason\n2024-25\nConference Standings\n Wright County \n Delano \nDelano\nHome\nRoster\nGame Schedule\nPlayer Stats\nTeam Stats\nStandings\nPhotos\nVideos\nPosts\nLeague\nDivision\nFilters\nPosition\nAll\nGoalieDefenseForward\nPlayer Stats\nSkater\n#\tName\tGP\tG\tA\tPTS\tSOG\tSOG %\tPPG\tPPA\tSH\tSHA\tPEN\tPIM\tFOW\tFOL\tTO\tHIT\tBS\t+ / -\tGW\tAVG PTS\n3\tLuke Robertson\t10\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t3\t1\t1\t-2\t0\t0.00\n19\tJonny McCabe\t15\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t1\t1\t1\t1\t0\t0.00\n21\tDylan Nelson\t26\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t3\t6\t62\t44\t42\t49\t4\t-11\t0\t0.00\n30\tAidan Janiga\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t1\t0\t0\t0\t0\t0.00\n22\tBennett Halonen\t12\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t1\t3\t0\t0\t0\t0.00\n5\tOwen Schuster\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n25\tKellen Danielson\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n15\tLincoln Hargarten\t19\t0\t1\t1\t0\t0.0\t0\t0\t0\t0\t0\t0\t2\t5\t9\t9\t1\t-1\t0\t0.05\n7\tGrant Bruett\t21\t0\t1\t1\t0\t0.0\t0\t0\t0\t0\t0\t0\t2\t1\t6\t52\t4\t-6\t0\t0.05\n8\tMason Mattson\t10\t1\t1\t2\t1\t100.0\t0\t0\t0\t0\t1\t2\t2\t2\t1\t0\t0\t3\t0\t0.20\n1\tEvan Geyen\t7\t0\t3\t3\t0\t0.0\t0\t2\t0\t0\t0\t0\t0\t0\t3\t0\t0\t0\t0\t0.43\n24\tEddie Lins\t25\t0\t4\t4\t0\t0.0\t0\t0\t0\t0\t4\t11\t0\t0\t52\t40\t27\t3\t0\t0.16\n16\tConnor Oja\t27\t2\t8\t10\t2\t100.0\t0\t2\t0\t1\t0\t0\t0\t0\t40\t15\t15\t12\t0\t0.37\n9\tJacob Perlich\t26\t4\t8\t12\t4\t100.0\t2\t1\t0\t0\t9\t18\t169\t151\t54\t74\t7\t-3\t0\t0.46\n20\tBrody Geislinger\t24\t8\t5\t13\t8\t100.0\t2\t1\t1\t0\t16\t34\t86\t70\t79\t120\t11\t-4\t2\t0.54\n34\tJackson Wollak\t27\t1\t15\t16\t1\t100.0\t0\t8\t0\t0\t10\t20\t0\t0\t88\t77\t11\t12\t0\t0.59\n13\tBrady Kangas\t27\t9\t9\t18\t9\t100.0\t3\t1\t0\t0\t5\t21\t20\t22\t73\t34\t8\t6\t0\t0.67\n39\tAaron Halonen\t27\t6\t13\t19\t6\t100.0\t3\t4\t1\t0\t4\t8\t0\t0\t96\t65\t39\t2\t2\t0.70\n17\tMarkus Kangas\t27\t10\t11\t21\t10\t100.0\t1\t3\t2\t0\t17\t38\t1\t0\t113\t110\t63\t21\t3\t0.78\n10\tMason Hargarten\t20\t9\t14\t23\t9\t100.0\t1\t3\t0\t0\t5\t12\t83\t93\t51\t62\t14\t9\t0\t1.15\n62\tLance Halonen\t27\t13\t16\t29\t13\t100.0\t3\t3\t0\t0\t8\t19\t77\t44\t63\t58\t20\t17\t1\t1.07\n18\tJoseph McCabe\t27\t14\t17\t31\t14\t100.0\t2\t4\t0\t0\t3\t19\t35\t35\t74\t59\t9\t22\t2\t1.15\n11\tBryce Peterson\t27\t18\t15\t33\t18\t100.0\t3\t5\t0\t0\t12\t24\t136\t115\t103\t90\t33\t11\t3\t1.22\n12\tDaniel Halonen\t27\t13\t25\t38\t13\t100.0\t3\t6\t0\t3\t16\t32\t237\t148\t88\t86\t24\t22\t2\t1.41\nGoalie\n#\tName\tGP\tMIN\tW\tL\tT\tSOG\tGA\tSV\tGAA\tSV %\tSO\n30\tAidan Janiga\t9\t412:51\t1\t5\t1\t210\t29\t181\t3.58\t.862\t0\n1\tEvan Geyen\t19\t929:12\t13\t6\t0\t480\t52\t428\t2.85\t.892\t2\n35\tLincoln Truax\t2\t52:24\t1\t0\t0\t21\t2\t19\t1.95\t.905\t0\nPrintable Version\n\n\n\n\n\n\n\n\nPrevious\nNext\n\nMSHSL\nSchedule/Results\n\nStatistical Leaders\n\nConference Standings\n\nHoliday Tournaments\n\nCoaching Changes\n\nContact Us\nadmin@legacy.hockey\n\nSubscribe\nThis website is powered by SportsEngine's Sports Relationship Management (SRM) software, but is owned by and subject to the Legacy Hockey privacy policy. ©2026 SportsEngine, LLC.\n Privacy Policy\n\nNeed Help?\n\n\n\n\n\n\n\nTerms of Content Use\nA Raptive Partner Site\n",
+    "season3": "Connect to this Site \ndrtigers\n \nMy Sites\n \n 360\nSportsEngine\n\nNeed Help?\nRegistration Details\nAssets\nSite Guide\nStyle Guide\nskip navigation\nLegacy Hockey | Minnesota's No. 1 resource for high school hockey's past, present and future.\n\n \nTeam Search\nSearch\nThe TourneyMSHSLNewsTourney TimeSponsorshipsMore\nSubscribe\nDelano\nHistory\nRegular & Postseason\n2023-24\nConference Standings\n Wright County \n Delano \nDelano\nHome\nRoster\nGame Schedule\nPlayer Stats\nTeam Stats\nStandings\nPhotos\nVideos\nPosts\nLeague\nDivision\nFilters\nPosition\nAll\nGoalieDefenseForward\nPlayer Stats\nSkater\n#\tName\tGP\tG\tA\tPTS\tSOG\tSOG %\tPPG\tPPA\tSH\tSHA\tPEN\tPIM\tFOW\tFOL\tTO\tHIT\tBS\t+ / -\tGW\tAVG PTS\n2\tLuke Robertson\t5\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t1\t0\t0.00\n16\tConnor Oja\t5\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n28\tDuncan Truax\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n31\tLaden Lofstedt\t11\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t4\t1\t0\t3\t0\t0\t0\t0.00\n7\tHunter Allen\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n19\tKyle Narlock\t1\t0\t0\t0\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.00\n1\tEvan Geyen\t3\t0\t1\t1\t0\t0.0\t0\t1\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0.33\n21\tMax Haukos\t4\t1\t0\t1\t1\t100.0\t0\t0\t0\t0\t0\t0\t0\t1\t0\t0\t0\t0\t0\t0.25\n38\tJames Stigman\t1\t0\t1\t1\t0\t0.0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t0\t1.00\n24\tEddie Lins\t26\t0\t3\t3\t0\t0.0\t0\t0\t0\t1\t0\t0\t0\t0\t1\t13\t12\t9\t0\t0.12\n9\tJacob Perlich\t26\t2\t4\t6\t2\t100.0\t0\t0\t0\t0\t2\t4\t90\t95\t1\t15\t7\t-4\t0\t0.23\n17\tMarkus Kangas\t27\t2\t7\t9\t2\t100.0\t0\t2\t0\t0\t23\t46\t0\t0\t4\t78\t27\t10\t1\t0.33\n13\tBrady Kangas\t27\t4\t8\t12\t4\t100.0\t0\t0\t0\t0\t1\t2\t2\t4\t3\t8\t10\t0\t1\t0.44\n3\tJake Heinzen\t27\t8\t5\t13\t8\t100.0\t0\t0\t1\t0\t6\t15\t3\t4\t1\t39\t6\t6\t2\t0.48\n14\tVinny Cappelleri\t27\t4\t9\t13\t4\t100.0\t0\t2\t0\t0\t8\t16\t0\t0\t2\t33\t17\t11\t1\t0.48\n39\tAaron Halonen\t26\t4\t9\t13\t4\t100.0\t1\t3\t0\t0\t5\t10\t0\t0\t6\t54\t23\t2\t0\t0.50\n23\tAndrew Bruett\t27\t5\t9\t14\t5\t100.0\t1\t1\t0\t0\t5\t10\t4\t4\t2\t39\t13\t2\t1\t0.52\n34\tBrayden Coppin\t26\t0\t14\t14\t0\t0.0\t0\t4\t0\t0\t3\t6\t0\t0\t8\t41\t42\t4\t0\t0.54\n22\tTodd Linna\t21\t5\t11\t16\t5\t100.0\t0\t2\t1\t1\t2\t4\t131\t112\t0\t21\t5\t6\t0\t0.76\n20\tBrody Geislinger\t24\t8\t10\t18\t8\t100.0\t3\t1\t0\t2\t7\t14\t0\t1\t0\t38\t6\t12\t5\t0.75\n12\tDaniel Halonen\t24\t8\t11\t19\t8\t100.0\t2\t2\t0\t0\t8\t16\t131\t107\t5\t21\t12\t-4\t1\t0.79\n11\tBryce Peterson\t27\t11\t11\t22\t11\t100.0\t2\t1\t0\t0\t8\t16\t9\t14\t2\t34\t8\t2\t1\t0.81\n18\tJoseph McCabe\t27\t13\t15\t28\t13\t100.0\t4\t4\t1\t0\t8\t16\t25\t15\t3\t47\t7\t4\t1\t1.04\n8\tTeague Collings\t27\t11\t21\t32\t11\t100.0\t2\t4\t1\t0\t9\t23\t97\t92\t3\t17\t16\t10\t1\t1.19\n10\tMason Hargarten\t27\t16\t16\t32\t16\t100.0\t4\t3\t1\t1\t14\t31\t291\t251\t0\t45\t19\t18\t2\t1.19\nGoalie\n#\tName\tGP\tMIN\tW\tL\tT\tSOG\tGA\tSV\tGAA\tSV %\tSO\n1\tEvan Geyen\t18\t934:35\t10\t7\t1\t478\t52\t426\t2.84\t.891\t3\n30\tEthan Engelmann\t9\t413:50\t6\t2\t0\t226\t20\t206\t2.46\t.912\t2\n38\tJames Stigman\t1\t51:00\t1\t0\t0\t14\t0\t14\t0.00\t1.000\t1\nPrintable Version\n\n\n\n\n\n\n\n\nPrevious\nNext\n\nMSHSL\nSchedule/Results\n\nStatistical Leaders\n\nConference Standings\n\nHoliday Tournaments\n\nCoaching Changes\n\nContact Us\nadmin@legacy.hockey\n\nSubscribe\nThis website is powered by SportsEngine's Sports Relationship Management (SRM) software, but is owned by and subject to the Legacy Hockey privacy policy. ©2026 SportsEngine, LLC.\n Privacy Policy\n\nTerms of Content Use\nA Raptive Partner Site\n"
+  }
+};
         /* Example for subscriber site:
         const EMBEDDED_CONFIG = {
           siteId: 'east-grand-forks',
@@ -543,6 +1242,60 @@
           if (!trimmed || trimmed === 'TBD') return raw;
           const found = lookupTeam(trimmed);
           return found && found.name ? found.name : raw;
+        };
+
+        // v62.6 / v63.1: fuzzy player match for parsePlayerStats. Rules (any of these is a match, ranked by priority):
+        //   1. Exact full-name match (case-insensitive) — the common case for Legacy Hockey data
+        //   2. Last name Levenshtein ≤ 2  AND  (first-name Lev ≤ 2  OR  one first name is a prefix of the other
+        //      OR same first 3 chars) — handles typos ("Anderson" ↔ "Andersen"), prefix-style nickname↔formal
+        //      pairs ("Jon" ↔ "Jonathan", "Alex" ↔ "Alexander"), and non-prefix nicknames like Nick ↔ Nicholas
+        //      (both "Nic") without false-matching siblings (Lance ↔ Daniel differ too much on firstName).
+        // Won't catch substitution nicknames (Mike ↔ Michael, Jake ↔ Jacob) — those produce a diagnosable
+        // "0 stats shown" failure that a coach fixes by making names consistent in Legacy Hockey.
+        // When multiple candidates match the fuzzy rule, the one with the lowest total edit distance wins.
+        // NUMBER IS NOT USED — jersey numbers change year-over-year, so matching on number breaks continuity
+        // (Lance Halonen #42 → #12 with brother Daniel having worn #12 before was the original breaking case).
+        const findRosterPlayerFuzzy = (candidates, cleanName, positionFilter) => {
+          if (!cleanName) return null;
+          const parts = cleanName.trim().split(/\s+/);
+          if (parts.length < 1) return null;
+          const inLast  = (parts.pop() || '').toLowerCase();
+          const inFirst = (parts.join(' ') || '').toLowerCase();
+          if (!inLast) return null;
+
+          // Priority 1: exact full-name match (ignore case + Capt./* decoration)
+          for (const p of candidates) {
+            if (positionFilter && !positionFilter(p)) continue;
+            const stored = (p.name || '').trim().toLowerCase();
+            const storedStripped = (p.name || '').replace(/\s*\(Capt\.?\)/i,'').replace(/\*/g,'').trim().toLowerCase();
+            if (stored === cleanName.trim().toLowerCase() || storedStripped === cleanName.trim().toLowerCase()) {
+              return p;
+            }
+          }
+
+          // Priority 2: fuzzy. lastName Lev ≤ 2 AND one of these on firstName:
+          //   • Lev ≤ 2 (small typos)
+          //   • one is a prefix of the other (Jon↔Jonathan, Alex↔Alexander, Will↔William)
+          //   • same first 3 chars (Nick↔Nicholas — not prefix because K vs H)
+          // Pick candidate with lowest total edit distance.
+          let best = null, bestDist = Infinity;
+          for (const p of candidates) {
+            if (positionFilter && !positionFilter(p)) continue;
+            const pLast  = (p.lastName  || '').toLowerCase();
+            const pFirst = (p.firstName || '').toLowerCase();
+            if (!pLast || !pFirst || !inFirst) continue;
+            const lastDist = levenshtein(pLast, inLast);
+            if (lastDist > 2) continue;
+            const firstDist = levenshtein(pFirst, inFirst);
+            const firstPrefix = pFirst.length >= 2 && inFirst.length >= 2 &&
+              (pFirst.startsWith(inFirst) || inFirst.startsWith(pFirst));
+            const first3Same  = pFirst.length >= 3 && inFirst.length >= 3 &&
+              pFirst.substring(0, 3) === inFirst.substring(0, 3);
+            if (firstDist > 2 && !firstPrefix && !first3Same) continue;
+            const total = lastDist + Math.min(firstDist, firstPrefix ? 1 : (first3Same ? 2 : firstDist));
+            if (total < bestDist) { bestDist = total; best = p; }
+          }
+          return best;
         };
 
         // Get sorted list of teams for dropdown
@@ -2636,13 +3389,10 @@
                 const cleanName = (() => { const p = name.trim().split(/\s+/); const r = []; for (const t of p) { const tc = t.replace(/\*+$/, ''); if (/[a-z]$/.test(tc)) r.push(tc); else break; } return r.length > 0 ? r.join(' ') : p[0]; })();
 
                 if (inSkaterSection) {
-                  const player = updatedRoster.find(p =>
-                    p.number === number &&
-                    p.position !== 'G' &&
-                    (p.name === cleanName ||
-                     p.name.replace(/\s*\(Capt\.?\)/i,'').replace(/\*/g,'').trim() === cleanName ||
-                     p.lastName === cleanName.split(' ').pop())
-                  );
+                  // v63.1 (ported from v62.6): fuzzy match on name (no number). Handles jersey
+                  // number changes year-over-year and tolerates typos/prefix-nicknames. See
+                  // findRosterPlayerFuzzy for the full rules.
+                  const player = findRosterPlayerFuzzy(updatedRoster, cleanName, (p) => p.position !== 'G');
 
                   if (player && fields.length >= (6 + fieldOffset)) {
                     const currentStats = {
@@ -2695,13 +3445,9 @@
                   }
 
                 } else if (inGoalieSection) {
-                  const player = updatedRoster.find(p =>
-                    p.number === number &&
-                    p.position === 'G' &&
-                    (p.name === cleanName ||
-                     p.name.replace(/\s*\(Capt\.?\)/i,'').replace(/\*/g,'').trim() === cleanName ||
-                     p.lastName === cleanName.split(' ').pop())
-                  );
+                  // v63.1 (ported from v62.6): fuzzy match on name (no number). Same rules as the
+                  // skater branch, position filter switched to G.
+                  const player = findRosterPlayerFuzzy(updatedRoster, cleanName, (p) => p.position === 'G');
 
                   if (player && player.goalieStats && fields.length >= (10 + fieldOffset)) {
                     const currentGoalieStats = {
